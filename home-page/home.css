@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    background-color: black ;
+    color: #e7e9ea;
+}
+
+.icons{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    
+}
+.icon {
+    width: 13px;
+    height: 16px;
+    color: #e7e9ea;
+    background-color: #e7e9ea;
+  
+}
