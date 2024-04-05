@@ -2,12 +2,46 @@ body{
     margin: 0;
     background-color: black ;
     color: #e7e9ea;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 0px 30px;
+    font-size: 20px;
+}
+.page{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#X-icon{
+    font-size: 25px;
+}
+
+#set-icon{
+    font-size: 23px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.name span i, .name p span {
+    color: #71767b;
+  
 }
 
 .icons{
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 15px;
+    padding: 0;
+    color: #71767b;
     
 }
 .icon {
@@ -15,5 +49,25 @@ body{
     height: 16px;
     color: #e7e9ea;
     background-color: #e7e9ea;
+    
   
+}
+
+#bod {
+    display: flex;
+    margin: 0;
+}
+
+.profilePic{
+    width: 20%;
+}
+
+.post{
+    width: 80%;
+}
+
+.line{
+    width: 100%;
+    height: 0.1px;
+    background-color: #71767b;
 }
