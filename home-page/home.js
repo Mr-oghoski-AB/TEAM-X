@@ -1,6 +1,7 @@
 let sideBar = document.getElementById('sidebar');
 let openSideBar = document.getElementById('btn');
-let closeSideBar = document.getElementById('bod');
+let closeSideBar = document.querySelector('#bod');
+
 
 
 openSideBar.addEventListener ('click', function (e) {
