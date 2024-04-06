@@ -71,3 +71,82 @@ body{
     height: 0.1px;
     background-color: #71767b;
 }
+
+.sidebar{
+    width: 0%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden;
+    transition: 0.3s linear;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    border: 1px solid #71767b;
+}
+
+.el{
+    display: flex;
+    justify-content: space-between;
+}
+
+.si-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50em;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.circle{
+    border: 1px solid #71767b;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50em;
+}
+
+.sidebar p .si-user1{
+    font-size: 20px;
+}
+.si-user{
+    color: #71767b;
+    margin-top: -17px;
+    font-size: 15px;
+}
+
+.follow{
+    display: flex;
+    gap: 20px;
+    margin-top: -20px;
+}
+
+.sidebar p span{
+    color: #71767b;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+.sidebar .follow p b{
+    font-size: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    font-weight: bolder;
+       
+}
+
+.sidebar ul li {
+    margin-bottom: 1.5em;
+    display: flex;
+    gap: 20px;
+    font-size: 21px;
+}
+
