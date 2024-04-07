@@ -25,4 +25,11 @@ closeSideBar.addEventListener ('click', function (e){
    
 })
 
+function closeSide(){
+    if (sideBar.style.width == '65%'){
+        sideBar.style.width = '0%';
+        sideBar.style.padding = '0px'
+        sideBar.style.transition = '0.1s'
+    };
+}
 
