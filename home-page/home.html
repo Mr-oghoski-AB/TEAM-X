@@ -23,7 +23,7 @@
                 <p><b>10</b><span>Following</span></p>
                 <p><b>123m</b><span>Followers</span></p>
             </div>
-            <ul>
+            <ul class="first-list">
                 <li><i class="ri-user-fill"></i>Profile</li>
                 <li><i class="ri-twitter-x-fill"></i>Premium</li>
                 <li><i class="ri-file-list-line"></i>Lists</li>
@@ -32,8 +32,24 @@
                 <li><i class="ri-wallet-3-line"></i>Monetization</li>
                 <li><i class="ri-share-box-fill"></i>Ads</li>
                 <li><i class="ri-briefcase-line"></i>Jobs</li>
-                <li><i class="ri-settings-5-line"></i>Settings and privacy</li>
+                <li><i class="ri-settings-5-line"></i><span>Settings and privacy</span></li>
                 <li><i class="ri-login-box-line"></i>Log out</li>
+            </ul>
+            <ul class="second-list">
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-home-line"></i></li>
+                <li> <i class="ri-search-line"></i>
+                <li><i class="ri-notification-line"></i></li>
+                <li><i class="ri-group-fill"></i></li>
+                <li><i class="ri-mail-line"></i></li></li>
+                <li><i class="ri-file-list-line"></i></li>
+                <li><i class="ri-bookmark-line"></i></li>
+                <li><i class="ri-group-line"></i></li>
+                <li><i class="ri-twitter-x-fill"></i></li>
+                <li><i class="ri-user-line"></i></li>
+                <li><div><i class="ri-more-line"></i></div></li>
+                <li><i class="ri-add-large-line"></i></li>
+
             </ul>
         </div>
 
@@ -50,9 +66,33 @@
         <div class="page" onclick="closeSide()">
             <p>For you </p>
             <p> following</p>
+            <i class="ri-settings-4-line" id="set-icon"></i>
         </div>
     </div>
-    <div class="line" style="margin-top: -10px;"></div>
+    
+
+    <div id="new-post">
+        <div class="first-pic">
+            <div >
+                <img src="../Assets/home-view/X.jpeg" alt="">
+            </div>
+        </div>
+        <div class="make-post">
+            <input type="text" placeholder="What is happening?!">
+            <span><i class="ri-earth-fill"></i> Everyone can reply</span>
+            <div class="l">
+                <div>
+                    <i class="ri-image-2-line"></i>
+                    <i class="ri-file-gif-line"></i>
+                    <i class="ri-list-radio"></i>
+                    <i class="ri-calendar-schedule-line"></i>
+                    <i class="ri-map-pin-line"></i>
+                </div>
+                <span class="pos"> post</span>
+            </div>
+        </div>
+
+    </div>
 
     <div id="bod">
         <div class="profilePic">
@@ -82,6 +122,7 @@
         </div>
     </div>
     <div class="line"></div>
+    <div class="circle" id="circle"><i class="ri-add-large-line"></i></div>
 
     <div id="bod" onclick="closeSide()">
         <div class="profilePic">
@@ -140,6 +181,7 @@
         </div>
     </div>
     <div class="line"></div>
+
 
     <div id="bod" onclick="closeSide()">
         <div class="profilePic">

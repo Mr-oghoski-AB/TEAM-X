@@ -6,10 +6,13 @@ body{
 }
 
 #Header{
+    background-color: black;
+    transition: 0.5s;
     transition-property: transform; 
     transition-duration: 350ms; 
     transition-timing-function: cubic-bezier(0, 0, 0, 1); 
     transform: translate3d(0px, 0px, 0px) translateY(0px);
+    border-bottom: #71767b 1px solid;
 }
 
 .head{
@@ -25,6 +28,10 @@ body{
 #Header div p{
     padding-bottom: 20px;
 }
+#new-post{
+    display: none;
+}
+
 #btn{
     width: 40px;
     height: 40px;
@@ -87,6 +94,7 @@ body{
 #bod {
     display: flex;
     margin: 0;
+    
 }
 .ri-verified-badge-fill{
     color: rgb(29, 155, 240);
@@ -173,6 +181,17 @@ img{
     border-radius: 50em;
 }
 
+#circle {
+    position: fixed;
+    top: 83%;
+    left: 80%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    opacity: 0.8;
+}
+
 .sidebar p .si-user1{
     font-size: 20px;
 }
@@ -227,4 +246,141 @@ footer{
     justify-content: space-around;
     font-size: 30px;
     margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    #Header{
+        width: 77%;
+        margin-left: 15%;
+        height: 50px;
+        border: #71767b 0.1px solid;
+    }
+    #Header .page {
+        margin-bottom: 0;
+        margin-top: 0;
+        height: 50px;
+        text-wrap: nowrap;
+        display: flex;
+        justify-content: flex-end;
+        gap: 30%;
+    }
+    #Header .page i {
+        margin-top: 15px;
+        margin-right: 5px;
+    }
+    .head{
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    .sidebar{
+        width: 15%;
+        box-shadow: none;
+        border: 0.1px solid #71767b;
+ 
+    }
+
+    #bod{
+        width: 77%;
+        margin-left: 15%;
+        border: #71767b 0.1px solid;
+    }
+    #new-post{
+        display: flex;
+        height: 200px;
+        width: 77%;
+        margin-left: 15%;
+        border: #71767b 0.1px solid;
+
+        
+    }
+    .first-pic{
+      width: 20%;
+      display: flex;
+      justify-content: center;
+    }
+    .make-post{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+    .make-post input {
+        width: 99%;
+        height: 200px;
+        background-color: black;
+        text-align: start;
+        border: none;      
+    
+ 
+    }
+    .make-post input:hover {
+        color: white;
+    
+    }
+    input:focus {
+        outline: none;
+      
+    }
+    .make-post input::placeholder{
+        position: relative;
+        top: -40px;
+        text-align:start;
+        font-size: 20px;
+        height: 200px;
+    }
+    .sidebar .circle, .sidebar p, .sidebar .follow, .sidebar .first-list, .sidebar .el {
+        display: none;
+    }
+    .icons{
+        justify-content: space-between;
+    }
+    .second-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 30px;
+    }
+    .second-list li i {
+        font-size: 25px;
+    }
+    .first-pic div {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 50em;
+    }
+
+    .make-post span {
+        color: rgb(29, 155, 240);
+        font-weight: 500;
+    }
+    .make-post div{
+        display: flex;
+        justify-content: space-between;
+        color: rgb(29, 155, 240);
+        margin-top: 20px;
+
+    }
+    .make-post .l {
+        border-top: #71767b 1px solid;
+    }
+    .make-post div div {
+        display: flex;
+        gap:  8px;
+    }
+    .make-post div .pos {
+        color: white;
+        background-color: rgb(29, 155, 240);
+        width: 80px;
+        height: 40px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .line {
+        display: none;
+    }
+
 }
