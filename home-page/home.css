@@ -28,6 +28,9 @@ body{
 #Header div p{
     padding-bottom: 20px;
 }
+.page #set-icon {
+    display: none;
+}
 #new-post{
     display: none;
 }
@@ -154,6 +157,12 @@ body{
     box-shadow: 0px 0px 230px rgba(67, 77, 102, 0.963);
 }
 .second-list{
+    display: none;
+}
+.second-list li:nth-child(13){
+    display: none;
+}
+.x-profile {
     display: none;
 }
 
@@ -307,7 +316,9 @@ footer{
     .name{
         justify-content: space-between;
     }
-   
+    .page #set-icon {
+        display: unset;
+    }
     .post{
         width: 87%;
 
@@ -366,12 +377,16 @@ footer{
         padding-right: 30px;
 
     }
+    .second-list li span {
+        display: none;
+    }
     .second-list li i {
         font-size: 25px;
     }
     .b-pic {
         position: absolute;
         top: 90%;
+        left: 50%;
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -581,12 +596,88 @@ footer{
     .show-more {
         margin-top: 18px;
     }
+    .b-pic {
+        left: 20%;
+    }
 }
 @media screen and (min-width: 1200px){
     #left-side-bar{
         margin-right: 5%;
     }
+    #Header{
+        margin-top: -1735px;
+    }
 }
-@media screen and (min-width: 1268px){
-    
+@media screen and (min-width: 1265px){
+    .sidebar{
+        width: 21.5%;
+    }
+    #Header, #bod, #new-post {
+        margin-left: 21.5%;
+    } 
+    #left-side-bar{
+        margin-right: 0%;
+        width: 30%;
+    }
+    .second-list {
+        align-items: flex-start;
+        margin-left: 30px;
+     
+
+    }
+    .second-list li span {
+        display: unset;
+        font-weight: 300;
+    }
+    .second-list li:nth-child(13){
+        background-color: rgb(29, 155, 240);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    .second-list li:nth-child(14) {
+        display: none;
+    }
+    .b-pic{
+        left: 10%;
+    }
+    .x-profile {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 90.5%;
+        left: 32%;
+    }
+    .x-profile b:nth-child(2){
+        font-weight: lighter;
+        color: #71767b;
+    }
+   
+}
+@media screen and (min-width: 1400px){
+    .sidebar{
+        width: 25%;
+    }
+    #Header, #bod, #new-post {
+        margin-left: 25%;
+    } 
+    .second-list{
+        line-height: 95%;
+        margin-left: 30%;
+    }
+    .b-pic{
+        left: 30%;
+    }
+    .x-profile{
+        top: 91.5%;
+        left: 45%;
+    }
+    #left-side-bar{
+        width: 25%;
+        margin-right: 5%;
+    }
 }
