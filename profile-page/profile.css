@@ -9,6 +9,13 @@ body{
 #left-side-bar{
     display: none;
 }
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+    display: flex;
+    gap: 20px;
+}
 #right-side-bar{
     display: none;
 }
