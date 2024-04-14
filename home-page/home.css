@@ -28,6 +28,13 @@ body{
 #Header div p{
     padding-bottom: 20px;
 }
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+    display: flex;
+    gap: 20px;
+}
 .page #set-icon {
     display: none;
 }
