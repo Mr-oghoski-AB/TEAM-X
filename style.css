@@ -1,0 +1,363 @@
+:root{
+   --xblue:#567;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family:"Roboto", sans-serif;
+    box-sizing:  border-box;
+    display:center;
+    justify-content: center;
+    align-items: center;  
+    color: var(--xblue);
+
+ }
+
+ body{
+   background-color: black;
+ }    
+ 
+ .Main-container {
+    align-items:center;
+    justify-content:center;
+    padding: 20px ;
+    border-radius:30px;
+    background:transparent;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	}
+
+   .container-1{
+      margin-bottom: 20px;
+      width: fit-content;
+   }
+   .container-1 i{
+      font-size: 40px;
+      color: white;
+   } 
+
+ .container-1.Twitter.logo {
+ Width: 50px;
+ height:3rem;
+ gap: 15px;
+ padding-bottom: 12px;
+ margin-bottom: 20px;
+ align-self: flex-start;
+ list-style-position: outside;
+ transform-origin: 0px 0px;
+ border:1px solid #999;
+ }
+
+ .sub-container-2 {
+    Width: 30px;
+    Margin-right: 50px;
+    border-radius: 100px
+ } 
+ 
+.container-3 button{
+   display: flex;
+   gap: 5px;
+   height: 40px;
+   width: 90%;
+   border: none;
+   border-radius: 70px;
+   margin-bottom: 10px;
+}
+
+
+.sub-container-3 img {
+   Width: 8px;
+   Margin-right: 50px;
+   border-radius: 40px;
+} 
+
+.container-4 button{
+display: flex;
+gap: 5px;
+height: 40px;
+width: 90%;
+border: none;
+border-radius: 50px;
+}
+
+.sub-container-4 img {
+   Width: 8px;
+   Margin-right: 50px;
+   border-radius: 40px;
+} 
+
+.flex_or hr{ 
+   border: 0;  
+   height: 1px;  
+   background: #c2c2c2;
+   margin: 5px;
+} 
+
+.flex_or{
+  display:flex;
+  color:#fff;
+  display:inline-block;
+  width:100%;
+  align-items: center;
+  margin:12px 0;
+}
+
+.flex_or span:before{
+  content:"";
+  height:1px;
+  width: 130px;
+  background-color:#5559;
+  display: inline-block;
+  margin-right:4px;
+}
+
+.flex_or span:after{
+  content:"";
+  height:1px;
+  width: 140px;
+  background-color:#5559;
+  display: inline-block;
+  margin-left:4px;
+} 
+
+.flex_or span {  
+    display: inline-block; 
+    width: 100%;  
+    font-size: 15px;
+    color: #fff;
+    margin-top:1px; 
+}
+.sub-container-5  button{
+   display: flex;
+   gap: 5px;
+   height: 40px;
+   width: 90%;
+   border: none;
+   border-radius: 50px;
+   background-color: #1d9bf0;
+   Margin-bottom: 10px;  
+}  
+
+.sub-container-5 a{
+   color: white;
+   text-decoration: none;
+}
+
+ .sub-container-6 p {
+  font-size: 20px;
+  color: #1d9bf0;
+ 
+}  
+ .sub-container-6 a {
+   text-decoration: none;
+   color: #1d9bf0; 
+ }
+
+ .sub-container-7 button {
+   display: flex;
+   gap: 5px;
+   height: 40px;
+   width: 90%;
+   border: none;
+   border-radius: 50px; 
+   margin-bottom: 15px;
+   border: 1px solid;    
+}
+ 
+ .sub-container-7 a {
+   color: #1d9bf0;
+   text-decoration: none; 
+}
+
+.footer-content {
+  padding: 5px;
+  font-size: 5px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-links {
+   list-style: none;
+   padding: 5px;
+   margin: 20px 10px 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+   line-height: 20px;
+  
+}
+.footer-links div  {
+   display: inline-block;
+}
+
+.footer-links a, 
+.footer-links p {
+    color: #71767b;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+@media (max-width: 375px) {
+    .footer-links {
+       font-size: 12.2px;
+    }
+    .container-2 h1 span br{
+      display: none;
+   }
+}
+
+
+@media screen and (min-width:768px) {
+   .Main-container{
+      margin-left: 15%;
+      height: 80%;
+   }
+   .container-1{
+      margin-bottom: 40px;
+   }
+
+   .container-1.Twitter.logo {
+   Width: 50px;
+   height:3rem;
+   gap: 15px;
+   padding-bottom: 200px;
+   margin-bottom: 200px; 
+   align-self: flex-start;
+   list-style-position: outside;
+   transform-origin: 0px 0px;
+   border:1px solid #999;
+ }
+ .container-2{
+      font-size: 30px;
+      font-weight: bolder;
+ }
+ .container-2 h2 {
+   font-size: 30px;
+ }
+
+   .sub-container-2{
+      Width: 30px;
+      Margin-right: 5px;
+      border-radius: 100px;
+      font-size: 18px;   
+   }
+
+
+   .container-3 button{
+      display: flex;
+      gap: 5px;
+      height: 40px;
+      width: 48%;
+      border: none;
+      border-radius: 70px;
+      margin-bottom: 10px;
+   }
+   
+   .sub-container-3 img {
+      Width: 8px;
+      Margin-right: 30px;
+      border-radius: 40px;
+}
+
+.container-4 button{
+   display: flex;
+   gap: 5px;
+   height: 40px;
+   width: 48%;
+   border: none;
+   border-radius: 50px;
+   }
+   
+   .sub-container-4 img {
+      Width: 8px;
+      Margin-right: 50px;
+      border-radius: 40px;
+   } 
+
+   .sub-container-5  button{
+      display: flex;
+      gap: 5px;
+      height: 40px;
+      width: 48%;
+      border: none;
+      border-radius: 50px;
+      background-color: #1d9bf0;
+      Margin-bottom: 10px;  
+   }  
+   
+   .sub-container-5 a{
+      color: white;
+      text-decoration: none;
+   }
+
+   .sub-container-7 button {
+      display: flex;
+      gap: 5px;
+      height: 40px;
+      width: 48%;
+      border: none;
+      border-radius: 50px; 
+      margin-bottom: 15px;
+      border: 1px solid;    
+   }
+    
+    .sub-container-7 a {
+      color: #1d9bf0;
+      text-decoration: none; 
+   }
+
+   footer-content {
+      padding: 5px;
+      font-size: 5px;
+    }
+    
+    .footer-content {
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    .footer-links {
+       list-style: none;
+       padding: 5px;
+       margin: 20px 10px 10px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+    
+    .footer-links a {
+      color: #71767b;
+      text-decoration: none;
+   }
+}
+@media screen and (min-width:1000px){
+   .container-1 i{
+      font-size: 450px;
+   } 
+   /* .container-1{
+      width: 20%;
+      height: 40%;
+      border: 1px solid pink;
+   } */
+   .container-1 img {
+      width: 100%;
+   }
+   .Main-container{
+         display: flex;
+         justify-content: space-between;
+         height: 94vh;
+         margin-left: 3%;
+   }
+   .text-container{
+      width: 50%;
+   }
+   .container-2 h1 span br{
+      display: none;
+   }
+
+}
+
